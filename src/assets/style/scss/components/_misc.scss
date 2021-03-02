@@ -1,0 +1,80 @@
+/*--------------------------------------------------------------------*/
+/*                                Main                                */
+/*--------------------------------------------------------------------*/
+
+/*-------------------------Nav-------------------------*/
+
+.navbar{
+    a:hover{
+        text-decoration: none;
+    }
+}
+
+.cartQuantity{
+    color: #fff;
+    width: 1rem;
+    height: 1rem;
+    background-color: $primary;
+    font-size: 75%;
+    font-weight: 700;
+    right: -5px;
+    top: -5px;
+}
+
+/*-------------------------intro-------------------------*/
+.intro-dsc{
+    padding-left: 0;
+    width: 350px;
+    @include smallpc{
+        max-width: 250px;
+    }
+    @include iphone{
+        max-width: 345px;
+    }
+}
+
+
+.intro-4 .btn:hover{
+    background-color: rgba(0,0,0, 0.2);
+    color: $primary;
+}
+
+
+/*-------------------------Sries-------------------------*/
+
+
+.series span{
+    text-decoration: line-through;
+}
+
+/*-------------------------Subscribe-------------------------*/
+.subsribe-text{
+    padding-top:312px;
+    padding-bottom: 112px;
+}
+
+.subscribe{
+    margin-bottom: 0;
+    background-image: url(./imgs/subscribe.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    @include pad{
+        background-image: url(./imgs/subscribe-pad.png);
+    }
+}
+
+/*-------------------------Footer-------------------------*/
+
+
+
+/*--------------------------------------------------------------------*/
+/*                            Products                                */
+/*--------------------------------------------------------------------*/
+.product-card .btn-link{
+    padding: 0;
+    margin-right: 0.5rem;
+}
+
+.product-card{
+    background-color: #f8f9fa;
+}

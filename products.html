@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/style/css/all.min.css?15">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    
+    <title>LV men's</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light px-0">
+        <div class="container-fluid container container-md container-lg container-xl">
+            <h1 class="mb-0 pl-3 pl-md-0"><a class="logo" href="./index.html">LOUIS VUTTTON</a></h1>
+            <a class="cart-md d-inline-block d-md-none ml-auto mr-2 position-relative" href="#">
+                <span class="material-icons align-middle text-dark">shopping_cart</span>
+                <span class="cartQuantity d-inline-block rounded-circle text-center align-baseline position-absolute">3</span>
+            </a>
+            <button class="navbarBur-btn navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="main-nav navbar-nav ml-auto d-flex align-items-center ">
+                    <li class="nav-item order-0"><a class="nav-link py-2 border-1 h5 font-weight-normal mb-0" aria-current="page" href="products.html"><span class="material-icons align-middle d-none d-md-inline align-top">shopping_bag</span>Products</a></li>        
+                    <li class="ml-md-4 nav-item order-4"><a class="nav-link py-2 border-1 h5 font-weight-normal mb-0" href="#"><span class="material-icons align-middle d-none d-md-inline">favorite_border</span>Wishlist</a></li>
+                    <li class="ml-md-4 nav-item order-1"><a class="nav-link py-2 border-1 h5 font-weight-normal mb-0" href="login.html"><span class="material-icons align-middle d-none d-md-inline">perm_identity</span>Login</a></li>
+                    <li class="ml-md-4 nav-item order-5"><a class="nav-link py-2 d-none d-md-block border-1 h5 font-weight-normal mb-0" href="#"><span class="material-icons align-middle d-none d-md-inline">shopping_cart</span>Cart(3)</a></li>
+                    <li class="ml-md-4 nav-item order-2 d-md-none"><a class="nav-link py-2 border-1 h5 font-weight-normal mb-0" href="#">Blog</a></li>
+                    <li class="ml-md-4 nav-item d-md-none order-3"><a class="nav-link py-2 border-1 h5 font-weight-normal mb-0" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="bg-primary">
+        <div class="container container-md container-lg container-xl">
+            <ul class="products-nav bg-primary d-none d-md-flex align-items-center py-3 mb-500">
+                <li class="mr-md-125 mr-lg-175"><a href="" class="h5 font-weight-normal text-secondary">Wallets</a></li>
+                <li class="mr-md-125 mr-lg-175"><a href="" class="h5 font-weight-normal text-secondary">Fragrances</a></li>
+                <li class="mr-md-125 mr-lg-175"><a href="" class="h5 font-weight-normal text-secondary">Accessories</a></li>
+                <li class="mr-md-125 mr-lg-175"><a href="" class="h5 font-weight-normal text-secondary">Shoes</a></li>
+                <li class="mr-md-125 mr-lg-175"><a href="" class="h5 font-weight-normal text-secondary">Ready-to-Wear</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="products">
+        <div class="container container-md container-lg container-xl">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card shadow-sm rounded mb-4 mb-md-250">
+                        <figure><img src="./src/assets/imgs/product-1.png" class="w-100"></figure>
+                        <h4 class="title">LVWallet</h4>
+                        <p class="disc font-weight-light mb-2">LVLVLVLV</p>
+                        <p class="price mb-2">NT$13,800</p>
+                        <ul class="actions d-flex">
+                            <li>
+                                <button class="btn btn-link" id="js--favorite-btn-1">
+                                    <span class="material-icons" id="js--favorite-deleted-1">favorite_border</span>
+                                    <span class="material-icons" id="js--favorite-added-1" style="display: none">favorite</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn btn-link" id="js--cart-btn-1">
+                                    <span class="material-icons" id="js--cart-deleted-1">add_shopping_cart</span>
+                                    <span class="material-icons" id="js--cart-added-1" style="display: none">shopping_cart</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card shadow-sm rounded mb-4 mb-md-250">
+                        <figure><img src="./src/assets/imgs/product-2.png" class="w-100"></figure>
+                        <h4 class="title">LVWallet</h4>
+                        <p class="disc font-weight-light mb-2">LVLVLVLV</p>
+                        <p class="price mb-2">NT$13,800</p>
+                        <ul class="actions d-flex">
+                            <li>
+                                <button class="btn btn-link" id="js--favorite-btn-2">
+                                    <span class="material-icons" id="js--favorite-deleted-2">favorite_border</span>
+                                    <span class="material-icons" id="js--favorite-added-2" style="display: none">favorite</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn btn-link" id="js--cart-btn-2">
+                                    <span class="material-icons" id="js--cart-deleted-2">add_shopping_cart</span>
+                                    <span class="material-icons" id="js--cart-added-2" style="display: none">shopping_cart</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card shadow-sm rounded mb-4 mb-md-250">
+                        <figure><img src="./src/assets/imgs/product-3.png" class="w-100"></figure>
+                        <h4 class="title">LVWallet</h4>
+                        <p class="disc font-weight-light mb-2">LVLVLVLV</p>
+                        <p class="price mb-2">NT$13,800</p>
+                        <ul class="actions d-flex">
+                            <li>
+                                <button class="btn btn-link" id="js--favorite-btn-3">
+                                    <span class="material-icons" id="js--favorite-deleted-3">favorite_border</span>
+                                    <span class="material-icons" id="js--favorite-added-3" style="display: none">favorite</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn btn-link" id="js--cart-btn-3">
+                                    <span class="material-icons" id="js--cart-deleted-3">add_shopping_cart</span>
+                                    <span class="material-icons" id="js--cart-added-3" style="display: none">shopping_cart</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card shadow-sm rounded mb-4 mb-md-250">
+                        <figure><img src="./src/assets/imgs/product-4.png" class="w-100"></figure>
+                        <h4 class="title">LVWallet</h4>
+                        <p class="disc font-weight-light mb-2">LVLVLVLV</p>
+                        <p class="price mb-2">NT$13,800</p>
+                        <ul class="actions d-flex">
+                            <li>
+                                <button class="btn btn-link" id="js--favorite-btn-4">
+                                    <span class="material-icons" id="js--favorite-deleted-4">favorite_border</span>
+                                    <span class="material-icons" id="js--favorite-added-4" style="display: none">favorite</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn btn-link" id="js--cart-btn-4">
+                                    <span class="material-icons" id="js--cart-deleted-4">add_shopping_cart</span>
+                                    <span class="material-icons" id="js--cart-added-4" style="display: none">shopping_cart</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card shadow-sm rounded mb-4 mb-md-250">
+                        <figure><img src="./src/assets/imgs/product-5.png" class="w-100"></figure>
+                        <h4 class="title">LVWallet</h4>
+                        <p class="disc font-weight-light mb-2">LVLVLVLV</p>
+                        <p class="price mb-2">NT$13,800</p>
+                        <ul class="actions d-flex">
+                            <li>
+                                <button class="btn btn-link" id="js--favorite-btn-5">
+                                    <span class="material-icons" id="js--favorite-deleted-5">favorite_border</span>
+                                    <span class="material-icons" id="js--favorite-added-5" style="display: none">favorite</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn btn-link" id="js--cart-btn-5">
+                                    <span class="material-icons" id="js--cart-deleted-5">add_shopping_cart</span>
+                                    <span class="material-icons" id="js--cart-added-5" style="display: none">shopping_cart</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card shadow-sm rounded mb-4 mb-md-250">
+                        <figure><img src="./src/assets/imgs/product-6.png" class="w-100"></figure>
+                        <h4 class="title">LVWallet</h4>
+                        <p class="disc font-weight-light mb-2">LVLVLVLV</p>
+                        <p class="price mb-2">NT$13,800</p>
+                        <ul class="actions d-flex">
+                            <li>
+                                <button class="btn btn-link" id="js--favorite-btn-6">
+                                    <span class="material-icons" id="js--favorite-deleted-6">favorite_border</span>
+                                    <span class="material-icons" id="js--favorite-added-6" style="display: none">favorite</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn btn-link" id="js--cart-btn-6">
+                                    <span class="material-icons" id="js--cart-deleted-6">add_shopping_cart</span>
+                                    <span class="material-icons" id="js--cart-added-6" style="display: none">shopping_cart</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card shadow-sm rounded mb-4 mb-md-250">
+                        <figure><img src="./src/assets/imgs/product-7.png" class="w-100"></figure>
+                        <h4 class="title">LVWallet</h4>
+                        <p class="disc font-weight-light mb-2">LVLVLVLV</p>
+                        <p class="price mb-2">NT$13,800</p>
+                        <ul class="actions d-flex">
+                            <li>
+                                <button class="btn btn-link" id="js--favorite-btn-7">
+                                    <span class="material-icons" id="js--favorite-deleted-7">favorite_border</span>
+                                    <span class="material-icons" id="js--favorite-added-7" style="display: none">favorite</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn btn-link" id="js--cart-btn-7">
+                                    <span class="material-icons" id="js--cart-deleted-7">add_shopping_cart</span>
+                                    <span class="material-icons" id="js--cart-added-7" style="display: none">shopping_cart</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card shadow-sm rounded mb-4 mb-md-250">
+                        <figure><img src="./src/assets/imgs/product-8.png" class="w-100"></figure>
+                        <h4 class="title">LVWallet</h4>
+                        <p class="disc font-weight-light mb-2">LVLVLVLV</p>
+                        <p class="price mb-2">NT$13,800</p>
+                        <ul class="actions d-flex">
+                            <li>
+                                <button class="btn btn-link" id="js--favorite-btn-8">
+                                    <span class="material-icons" id="js--favorite-deleted-8">favorite_border</span>
+                                    <span class="material-icons" id="js--favorite-added-8" style="display: none">favorite</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn btn-link" id="js--cart-btn-8">
+                                    <span class="material-icons" id="js--cart-deleted-8">add_shopping_cart</span>
+                                    <span class="material-icons" id="js--cart-added-8" style="display: none">shopping_cart</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <div class="container container-lg">
+            <div class="row d-flex flex-column justify-content-center">
+                <div class="subsribe-text col col-md-6 col-lg-5 col-xl-4 ">
+                    <h2 class="font-weight-bold mb-4 dark">Subsrcibe us<br>to get more bonus!</h2>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Your email address">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-primary" id="btn-subscribe">Subscribe</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-primary">
+        <div class="container container-md">
+            <div class="row d-flex justify-content-between py-125">
+                <div class="copyright col col-md-7 col-lg-6 d-flex justify-content-between align-items-center">
+                    <h1 class="mb-0"><a class="logo logo-secondary" href="./index.html">LOUIS VUTTTON</a></h1>
+                    <p class="text-sm-s text-md-xs text-lg-s text-secondary pb-0 mb-0 ml-md-3">© 2020. All Rights Reserved.</p>
+                </div>
+                <ul class="sub-nav d-none d-md-flex align-items-center justify-content-between">
+                    <li class="ml-125 ml-md-3 ml-lg-225"><a href="products.html" class="text-secondary font-weight-normal h5">Products</a></li>
+                    <li class="ml-125 ml-md-3 ml-lg-225"><a href="#" class="text-secondary font-weight-normal h5">Blog</a></li>
+                    <li class="ml-125 ml-md-3 ml-lg-225"><a href="#" class="text-secondary font-weight-normal h5">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="./src/assets/js/script.js"></script>
+</body>
+</html>

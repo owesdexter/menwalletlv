@@ -1,0 +1,20 @@
+.logo{
+	background-image: url(./imgs/logo.png);   /* insert logo path */
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-size: 24px;
+	display: block; 
+	text-indent: 101%;     /* Indent the text to make it out of container range */
+	white-space: nowrap;   /* no wrap */
+	overflow: hidden;     /* Hide the exceeded portion of picture */
+	@include smallpc(){
+		font-size: 16px;
+		background-size: 100%;
+	}
+}
+
+.logo-secondary{
+	background-image: url(./imgs/logo-white.png);
+	font-size: 20px;
+}
